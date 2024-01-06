@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* searing design */
+.btn {
+  outline: none;
+  padding: 13px 30px;
+  border: 5px;
+}
+.header {
+  background-image: url("./images/banner/banner3.png");
+  width: 100%;
+  height: 808px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+}
+.blank-div {
+  width: 95%;
+}
+.header-content {
+  margin-right: 130px;
+  position: relative;
+  top: 200px;
+}
+.header-content h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-content p {
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  position: relative;
+  left: 110px;
+  top: 10px;
+
+  width: 420px;
+}
+.header-content button {
+  position: relative;
+  top: 20px;
+  left: 400px;
+}
+.year {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  margin: 180px 180px;
+}
+.person-details h1 {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.person-details p {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: square;
+  padding-left: 10px;
+}
