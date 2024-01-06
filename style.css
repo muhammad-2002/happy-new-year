@@ -7,10 +7,12 @@
 .btn {
   outline: none;
   padding: 13px 30px;
-  border: 5px;
+  border: 7px;
+  border-radius: 2px solid blue;
 }
 .header {
   background-image: url("./images/banner/banner3.png");
+  background-repeat: no-repeat;
   width: 100%;
   height: 808px;
 }
@@ -63,6 +65,7 @@ body {
   gap: 100px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 main {
   margin: 180px 180px;
@@ -88,4 +91,97 @@ main {
 ul {
   list-style: square;
   padding-left: 10px;
+}
+.plans h1 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.plan-icon {
+  display: flex;
+  gap: 150px;
+  margin-top: 50px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 100px;
+}
+.watch {
+  background-image: url("./images/watch.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.watch img {
+  width: 100%;
+  position: relative;
+}
+.watch .contents {
+  position: relative;
+  top: -230px;
+  left: 100px;
+  width: 400px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.watch h1 {
+  position: relative;
+  text-align: left;
+}
+footer {
+  background-color: #151414;
+  width: 1600px;
+  height: 577px;
+  flex-shrink: 0;
+  margin-top: -200px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 200px;
+  align-items: center;
+  gap: 100px;
+  color: #fff;
+}
+.footer-content .description {
+  width: 49%;
+  margin-top: 130px;
+}
+.description p {
+  padding-right: 120px;
+  line-height: 30px;
+}
+.icons i {
+  margin-right: 30px;
+  font-size: 30px;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-twitter {
+  color: cornflowerblue;
+}
+
+.Subscribe {
+  position: relative;
+  top: -20px;
+  left: -220px;
+}
+.Subscribe h1 {
+}
+.Subscribe input {
+  padding: 10px 200px 10px 0px;
+}
+.Subscribe button {
+  border-radius: 4px;
+  background: #005fac;
 }
